@@ -1,0 +1,15 @@
+:root {
+  --color-primary-navy: #2c2932;
+  --color-secondary-blue: #b8c2b2;
+  --color-accent-pink: #c4897b;
+  --color-accent-light-pink: #f0ddd2;
+  --color-beige: #ccb9A8;
+  --color-cream: #f5f0ec;
+
+  --font-primary: 'Playfair Display', serif;
+  --font-secondary: 'Karla', sans-serif;
+}
+
+html {
+  font-family: var(--font-primary);
+}
