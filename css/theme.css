@@ -13,3 +13,65 @@
 html {
   font-family: var(--font-primary);
 }
+
+h1, h2 , blockquote, cite{
+  font-family: var(--font-primary);
+  font-weight: bold;
+}
+
+h3, h4, h5, h6, strong {
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+ul, ol, dl, a, p {
+  font-family: var(--font-secondary);
+}
+
+.navy-background {
+  background-color: var(--color-primary-navy);
+}
+
+.blue-background {
+  background-color: var(--color-secondary-blue);
+}
+
+.pink-background {
+  background-color: var(--color-accent-pink);
+}
+
+.light-pink-background {
+  background-color: var(--color-accent-light-pink);
+}
+
+.beige-background {
+  background-color: var(--color-beige);
+}
+
+.cream-background {
+  background-color: var(--color-cream);
+}
+
+.navy-text {
+  color: var(--color-primary-navy);
+}
+
+.blue-text {
+  color: var(--color-secondary-blue);
+}
+
+.pink-text {
+  color: var(--color-accent-pink);
+}
+
+.light-pink-text {
+  color: var(--color-accent-light-pink);
+}
+
+.beige-text {
+  color: var(--color-beige);
+}
+
+.cream-text {
+  color: var(--color-cream);
+}
