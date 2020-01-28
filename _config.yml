@@ -10,7 +10,7 @@ patternbot:
     background: "--color-cream"
     accent: "--color-primary-navy"
     patterns:
-      brand-logos: "--color-accent-light-pink"
+      brand.logos: "--color-accent-light-pink"
   rationales:
     typefaces.primary: |
       Playfair Display was selected as the primary typeface because of its high contrast and delicate hairlines. This combinations creates an elegant and beautiful typeface for titles.
