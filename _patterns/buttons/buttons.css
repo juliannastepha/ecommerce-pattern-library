@@ -1,7 +1,9 @@
 btn {
   background-color: var(--color-cream);
   border-color: var(--color-primary-navy);
+  border-width: 2px;
   color: var(--color-primary-navy);
+  font-family: var(--font-secondary);
 }
 
 btn:hover {
