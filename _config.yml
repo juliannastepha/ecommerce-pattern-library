@@ -6,9 +6,14 @@ patternbot:
   description: |
     A small online shop selling original digital illustrations.
   font_url: 'https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap'
+  colors:
+    background: "--color-cream"
+    accent: "--color-primary-navy"
+    patterns:
+      brand-logos: ""--color-accent-light-pink"
   rationales:
     typefaces.primary: |
-      Playfair Display was selected as the primary typface because of its high contrast and delicate hairlines. This combinations creates an elegant and beautiful typefcae for titles.
+      Playfair Display was selected as the primary typeface because of its high contrast and delicate hairlines. This combinations creates an elegant and beautiful typeface for titles.
     typefaces.secondary: |
       Karla was selected as the secondary typface because of its simplicity. This provides high contrast between the intricate, serif titles and the minimal body copy.
     colors.primary: |
