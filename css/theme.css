@@ -28,6 +28,14 @@ ul, ol, dl, a, p {
   font-family: var(--font-secondary);
 }
 
+a {
+  text-decoration: none;
+  color: var(--color-primary-navy);
+}
+
+mark {
+  background-color: var(--color-accent-light-pink);
+}
 
 .navy-background {
   background-color: var(--color-primary-navy);

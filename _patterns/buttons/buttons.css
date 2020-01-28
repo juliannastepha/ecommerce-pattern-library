@@ -1,12 +1,103 @@
-btn {
+.btn {
   background-color: var(--color-cream);
   border-color: var(--color-primary-navy);
   border-width: 2px;
   color: var(--color-primary-navy);
   font-family: var(--font-secondary);
+  font-weight: bold;
 }
 
-btn:hover {
+.btn:hover {
   background-color: var(--color-primary-navy);
   color: var(--color-cream);
+}
+
+.btn-navy-cream {
+  background-color: var(--color-primary-navy);
+  border-color: var(--color-cream);
+  border-width: 2px;
+  color: var(--color-cream);
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+.btn-navy-cream:hover {
+  background-color: var(--color-cream);
+  border-color: var(--color-primary-navy);
+  color: var(--color-primary-navy);
+}
+
+.btn-cream-pink {
+  background-color: var(--color-cream);
+  border-color: var(--color-accent-pink);
+  border-width: 2px;
+  color: var(--color-accent-pink);
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+.btn-cream-pink:hover {
+  background-color: var(--color-accent-pink);
+  border-color: var(--color-cream);
+  color: var(--color-cream);
+}
+
+.btn-pink-light-pink {
+  background-color: var(--color-accent-pink);
+  border-color: var(--color-accent-light-pink);
+  border-width: 2px;
+  color: var(--color-accent-light-pink);
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+.btn-pink-light-pink:hover {
+  background-color: var(--color-accent-light-pink);
+  border-color: var(--color-accent-pink);
+  color: var(--color-accent-pink);
+}
+
+.btn-pink-cream {
+  background-color: var(--color-accent-pink);
+  border-color: var(--color-cream);
+  border-width: 2px;
+  color: var(--color-cream);
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+.btn-pink-cream:hover {
+  background-color: var(--color-cream);
+  border-color: var(--color-accent-pink);
+  color: var(--color-accent-pink);
+}
+
+.btn-beige-cream {
+  background-color: var(--color-beige);
+  border-color: var(--color-cream);
+  border-width: 2px;
+  color: var(--color-cream);
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+.btn-beige-cream:hover {
+  background-color: var(--color-cream);
+  border-color: var(--color-beige);
+  color: var(--color-beige);
+}
+
+.btn-light-pink-pink {
+  background-color: var(--color-accent-light-pink);
+  border-color: var(--color-accent-pink);
+  border-width: 2px;
+  color: var(--color-accent-pink);
+  font-family: var(--font-secondary);
+  font-weight: bold;
+}
+
+.btn-light-pink-pink:hover {
+  background-color: var(--color-accent-pink);
+  border-color: var(--color-accent-light-pink);
+  color: var(--color-accent-light-pink);
 }
