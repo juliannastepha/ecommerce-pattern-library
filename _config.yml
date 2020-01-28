@@ -11,3 +11,9 @@ patternbot:
       Playfair Display was selected as the primary typface because of its high contrast and delicate hairlines. This combinations creates an elegant and beautiful typefcae for titles.
     typefaces.secondary: |
       Karla was selected as the secondary typface because of its simplicity. This provides high contrast between the intricate, serif titles and the minimal body copy.
+    colors.primary: |
+      This primary colour is used because it matches the main colour in some of the prints sold from this shop. It also provides a lot of contrast from the lighter secondary blue and accent pinks.
+    colors.secondary: |
+      This blue colour is used as the secondary colour because it provides a unique contrast with the dark navy colour.
+    colors.accent: |
+      This accent pink colours are used because they provide a stark contrast from the main blue colours used. This pink colours are also more neutral earth tones, compared to the other water blue tones used.
