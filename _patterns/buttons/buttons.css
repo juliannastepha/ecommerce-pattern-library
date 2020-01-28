@@ -1,0 +1,10 @@
+btn {
+  background-color: var(--color-primary-navy);
+  border-color: var(--color-cream);
+  color: var(--color-cream);
+}
+
+btn:hover {
+  background-color: var(--color-cream);
+  color: var(--color-primary-navy);
+}
