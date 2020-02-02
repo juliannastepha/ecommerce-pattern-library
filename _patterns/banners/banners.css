@@ -1,3 +1,33 @@
 .header {
-  background-image: url(../images/header-banner.jpg);
+  color: var(--color-cream);
+}
+.header-content {
+  position: absolute;
+}
+
+.banner-img {
+  position: relative;
+}
+
+.her-heart-banner {
+  color: var(--color-accent-light-pink);
+}
+
+.continue-shopping-banner {
+  background-color: var(--color-beige);
+  color: var(--color-cream);
+}
+
+.product-img {
+  background-image: url(../images/firefly-eyes-print.jpg);
+}
+
+.product-details {
+  background-color: var(--color-accent-pink);
+  color: var(--color-cream);
+}
+
+.checkout-product-details {
+  background-color: var(--color-accent-light-pink);
+  color: var(--color-accent-pink);
 }
