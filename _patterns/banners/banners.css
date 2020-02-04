@@ -1,12 +1,17 @@
 .header {
   color: var(--color-cream);
 }
+
 .header-content {
-  position: absolute;
+  max-width: none;
 }
 
-.banner-img {
-  position: relative;
+.content-banner-content {
+  max-width: none;
+}
+
+.reflect {
+  transform: reflect
 }
 
 .her-heart-banner {
@@ -19,7 +24,17 @@
 }
 
 .product-img {
-  background-image: url(../images/firefly-eyes-print.jpg);
+  background-image: url(/images/firefly-eyes-print.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+.img-min-height {
+  min-height: 600px;
+}
+
+.checkout-min-height {
+  min-height: 500px;
 }
 
 .product-details {
@@ -30,4 +45,25 @@
 .checkout-product-details {
   background-color: var(--color-accent-light-pink);
   color: var(--color-accent-pink);
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  .header-content {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 20em;
+  }
+
+  .content-banner-content {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width: 20em;
+  }
+
 }

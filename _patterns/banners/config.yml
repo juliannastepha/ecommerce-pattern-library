@@ -1,0 +1,30 @@
+title: "Banners"
+description: |
+  The banners are sections that are meant to entice users to buy specific prints, to show a products details, or to list product on the checkout page.
+
+patterns:
+  header:
+    title: "Header Banner"
+    description: |
+      The Header Banner is located at the top of the homepage. It features cream text positioned on top of a large illustration. This banner entices users to visit the shop page.
+    background: "--color-cream"
+  content-banner:
+    title: "Content Banner"
+    description: |
+      The Content Banners are located on the homepage. It features right-aligned, light pink text positioned on top of a large illustration. This banner entices users to visit the prodcut details page of a specific print.
+    background: "--color-cream"
+  product-details:
+    title: "Product Details Banner"
+    description: |
+      The Product Details Banners are located on the product details pages. It features an image of the product and cream text positioned on top of a pink background. This banner provides the user with the product's specific details.
+    background: "--color-cream"
+  continue-shopping:
+    title: "Continue Shopping Banner"
+    description: |
+      The Continue Shopping Banners are located under the Product Details Banners on the product details pages. It features cream text positioned on top of a beige background. There are logo icons on either side of the "Continue Shopping" Button. This banner entices users to return to the shop page.
+    background: "--color-beige"
+  product-checkout:
+    title: "Product Checkout Banner"
+    description: |
+      The Product Checkout Banners are located on the checkout page. It features an image of the product and pink text positioned on top of a light pink background. This banner provides the user with the basic products details listed on the checkout page.
+    background: "--color-cream"

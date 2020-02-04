@@ -1,0 +1,15 @@
+title: "Cards"
+description: |
+  Cards are used to combine the product image, product name and product price.
+
+patterns:
+  featured:
+    title: "Featured Card"
+    description: |
+      The Featured Card is located on the homepage of the website, in the "Featured" section. It contains a product image, product title, product price and a button to encourage users to look at the product's details. The background is cream and the text and border are in pink.
+    background: "--color-cream"
+  products:
+    title: "Products Card"
+    description: |
+      The Products Card is located on the shop page of the website. It contains a product image, product title, product price and a button to encourage users to look at the product's details. The background is pink and the text and border are in link pink.
+    background: "--color-cream"

@@ -1,0 +1,40 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      The Basic button has a cream background with navy text and border. When hovered, the Basic button has a navy background with cream text and border.
+    width: 12em
+  beige-cream:
+    title: "Beige Cream"
+    description: |
+      The Beige Cream button has a beige background with cream text and border. When hovered, the Beige Cream button has a cream background with beige text and border.
+    background: "--color-beige"
+  cream-pink:
+    title: "Cream Pink"
+    description: |
+      The Cream Pink button has a cream background with pink text and border. When hovered, the Cream Pink button has a pink background with cream text and border.
+    background: "--color-cream"
+  light-pink-pink:
+    title: "Light Pink Pink"
+    description: |
+      The Light Pink Pink button has a light pink background with pink text and border. When hovered, the Light Pink Pink button has a pink background with light pink text and border.
+    background: "--color-accent-light-pink"
+  navy-cream:
+    title: "Navy Cream"
+    description: |
+      The Navy Cream button has a navy background with cream text and border. When hovered, the Navy Cream button has a cream background with navy text and border.
+    background: "--color-primary-navy"
+  pink-cream:
+      title: "Pink Cream"
+      description: |
+        The Pink Cream button has a pink background with cream text and border. When hovered, the Pink Cream button has a cream background with pink text and border.
+      background: "--color-accent-pink"
+  pink-light-pink:
+      title: "Pink Light Pink"
+      description: |
+        The Pink Light Pink button has a pink background with light pink text and border. When hovered, the Pink Light Pink button has a light pink background with pink text and border.
+      background: "--color-accent-pink"
