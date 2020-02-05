@@ -2,3 +2,16 @@ input, select {
   border-radius: 5px;
   border-width: thin;
 }
+
+.input-error {
+  border-color: red;
+  border-width: medium;
+}
+
+.red {
+  color: red;
+}
+
+.background-red {
+  background-color: #ffdcdc;
+}
