@@ -1,0 +1,29 @@
+title: "Forms"
+description: |
+  These are example of the form elements and how they should be styled.
+
+patterns:
+  labels:
+    title: "Labels"
+    description: |
+      This is how all the labels in a form should be styled.
+  inputs:
+    title: "Inputs"
+    description: |
+      This is how all the inputs in a form should be styled.
+  optional-inputs:
+    title: "Optional Inputs"
+    description: |
+      This is how all the optional inputs in a form should be styled.
+  choose-from-input:
+    title: "Choose from Inputs"
+    description: |
+      This is how all the inputs with lists of options in a form should be styled.
+  input-error:
+    title: "Input Error Message"
+    description: |
+      This is how all the input error messages in a form should be styled.
+  checkbox:
+    title: "Checkboxes"
+    description: |
+      This is how all the checkboxes in a form should be styled.
