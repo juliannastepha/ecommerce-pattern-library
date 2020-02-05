@@ -19,12 +19,12 @@ h1, h2 , blockquote, cite{
   font-weight: bold;
 }
 
-h3, h4, h5, h6, strong {
+h3, h4, h5, h6, strong, label {
   font-family: var(--font-secondary);
   font-weight: bold;
 }
 
-ul, ol, dl, a, p {
+ul, ol, dl, a, p, input, option, select {
   font-family: var(--font-secondary);
 }
 
