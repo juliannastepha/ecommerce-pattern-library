@@ -14,7 +14,7 @@ html {
   font-family: var(--font-primary);
 }
 
-h1, h2 , blockquote, cite, icon-label{
+h1, h2 , blockquote, cite {
   font-family: var(--font-primary);
   font-weight: bold;
 }

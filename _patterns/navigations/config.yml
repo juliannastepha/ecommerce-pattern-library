@@ -1,0 +1,15 @@
+title: "Navigations"
+description: |
+  The navigations featured are buttons to help navigate the shop and product details pages.
+
+patterns:
+  back:
+    title: "Back"
+    description: |
+      The Back arrow button allows a user to simply return to the previous page of the website they were on. This back button will be featured on every page.
+    background: "--color-cream"
+  pages:
+    title: "Pages"
+    description: |
+      The pages buttons allow a user to move to a previous shop page or to the next shop page. They would be at the bottom of the shop/products pages.
+    background: "--color-cream"
