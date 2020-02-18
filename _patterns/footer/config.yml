@@ -1,0 +1,10 @@
+title: "Footer"
+description: |
+  The footer is on every page of the website. Footers provides users with information and links they might need access to, that are not in the header.
+
+patterns:
+  footer:
+    title: "Footer"
+    description: |
+      The Header Banner is located at the bottom of every page. It features navy text on a blue background.
+    background: "--color-secondary-blue"

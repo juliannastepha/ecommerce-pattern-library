@@ -1,0 +1,10 @@
+title: "Header"
+description: |
+  The header is on every page of the website. Headers provides users with the website title and a navigation menu.
+
+patterns:
+  header:
+    title: "Header"
+    description: |
+      The Header Banner is located at the top of every page. It features navy text on a cream background.
+    background: "--color-cream"
