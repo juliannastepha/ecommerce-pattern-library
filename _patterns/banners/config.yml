@@ -15,9 +15,6 @@ patterns:
       - name: text
         type: string
         example: "Check out our shop page to see a large variety of minimally simple, black and white illustrations."
-      - name: icon
-        type: string
-        example: logo-cream
       - name: button_text
         type: string
         example: "Shop Now"
@@ -26,17 +23,6 @@ patterns:
         type: string
         example: "/products/"
         required: false
-    fields:
-      - name: heading
-        type: string
-        example: "Check Out All Our Minimal Prints"
-      - name: text
-        type: string
-        example: "Look below to see a large variety of minimally simple, black and white illustrations."
-      - name: icon
-        type: string
-        example: logo-cream-reflected
-  hi-there:
     title: "Hi There Banner"
     description: |
       The Hi There Banner is a banner on the homepage that features a small description of the company.
