@@ -41,7 +41,7 @@ patterns:
     title: "Continue Shopping Banner"
     description: |
       The Continue Shopping Banners are located under the Product Details Banners on the product details pages. It features cream text positioned on top of a beige background. There are logo icons on either side of the "Continue Shopping" Button. This banner entices users to return to the shop page.
-    background: "--color-beige"
+    background: "--color-cream"
   product-checkout:
     title: "Product Checkout Banner"
     description: |
