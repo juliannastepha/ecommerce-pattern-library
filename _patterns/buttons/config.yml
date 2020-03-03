@@ -8,33 +8,79 @@ patterns:
     description: |
       The Basic button has a cream background with navy text and border. When hovered, the Basic button has a navy background with cream text and border.
     width: 12em
+    fields:
+      - name: text
+        type: string
+        example: "See Prints"
   beige-cream:
     title: "Beige Cream"
     description: |
       The Beige Cream button has a beige background with cream text and border. When hovered, the Beige Cream button has a cream background with beige text and border.
     background: "--color-beige"
+    fields:
+      - name: text
+        type: string
+        example: "Continue Shopping"
+      - name: url
+        type: string
+        example: "/products/"
   cream-pink:
     title: "Cream Pink"
     description: |
       The Cream Pink button has a cream background with pink text and border. When hovered, the Cream Pink button has a pink background with cream text and border.
     background: "--color-cream"
+    fields:
+      - name: text
+        type: string
+        example: "See Print"
+      - name: url
+        type: string
+        example: ""
   light-pink-pink:
     title: "Light Pink Pink"
     description: |
       The Light Pink Pink button has a light pink background with pink text and border. When hovered, the Light Pink Pink button has a pink background with light pink text and border.
     background: "--color-accent-light-pink"
+    fields:
+      - name: text
+        type: string
+        example: "Remove"
+      - name: url
+        type: string
+        example: ""
   navy-cream:
     title: "Navy Cream"
     description: |
       The Navy Cream button has a navy background with cream text and border. When hovered, the Navy Cream button has a cream background with navy text and border.
     background: "--color-primary-navy"
+    fields:
+      - name: text
+        type: string
+        example: "Shop Now"
+      - name: url
+        type: string
+        example: "/products/"
   pink-cream:
       title: "Pink Cream"
       description: |
         The Pink Cream button has a pink background with cream text and border. When hovered, the Pink Cream button has a cream background with pink text and border.
       background: "--color-accent-pink"
+      fields:
+        - name: text
+          type: string
+          example: "Add to Bag"
+        - name: url
+          type: string
+          example: ""
   pink-light-pink:
       title: "Pink Light Pink"
       description: |
         The Pink Light Pink button has a pink background with light pink text and border. When hovered, the Pink Light Pink button has a light pink background with pink text and border.
       background: "--color-accent-pink"
+      fields:
+        - name: text
+          type: string
+          example: "See Print"
+        - name: url
+          type: string
+          example: ""

@@ -1,8 +1,10 @@
 <div class="header navy-background relative">
-  <img class="img-flex crop" src="/images/header-image.jpg" alt="">
+  <img class="img-flex crop" src="/images/header-image.jpg#{{include.icon}}" alt="">
   <div class="header-content gutter pad-t pad-b-2">
-    <h2 class="tena">Buy Original Illustrations</h2>
-    <p>Check out our shop page to see a large variety of minimally simple, black and white illustrations.</p>
-    {% pattern buttons/navy-cream %}
+    <h2 class="tena">{{include.heading}}</h2>
+    <p>{{include.text}}</p>
+    {% if include.button_url %}
+      {% pattern buttons/navy-cream text="Shop Now" url="/products/" %}
+    {% endif %}
   </div>
 </div>

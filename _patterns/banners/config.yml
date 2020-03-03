@@ -8,6 +8,34 @@ patterns:
     description: |
       The Header Banner is located at the top of the homepage. It features cream text positioned on top of a large illustration. This banner entices users to visit the shop page.
     background: "--color-cream"
+    fields:
+      - name: heading
+        type: string
+        example: "Buy Original illustrations"
+      - name: text
+        type: string
+        example: "Check out our shop page to see a large variety of minimally simple, black and white illustrations."
+      - name: icon
+        type: string
+        example: logo-cream
+      - name: button_text
+        type: string
+        example: "Shop Now"
+        required: false
+      - name: button_url
+        type: string
+        example: "/products/"
+        required: false
+    fields:
+      - name: heading
+        type: string
+        example: "Check Out All Our Minimal Prints"
+      - name: text
+        type: string
+        example: "Look below to see a large variety of minimally simple, black and white illustrations."
+      - name: icon
+        type: string
+        example: logo-cream-reflected
   hi-there:
     title: "Hi There Banner"
     description: |

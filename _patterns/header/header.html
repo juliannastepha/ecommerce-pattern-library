@@ -1,4 +1,4 @@
-<section class="wrapper cream-background">
+<section class="cream-background">
   <div class="grid grid-middle gutter">
     <div class="unit xs-1 s-1 m-1 l-1 pad-t text-center">
       <a class="logo-link" href="index.html">
@@ -11,9 +11,9 @@
     <div class="unit xs-1 s-1 m-1 l-1 text-center">
       <nav role="navigation" id="nav" tabindex="0">
         <ul class="nav-align list-group list-group-inline">
-          <li class="gutter-1-2"><a class="nav bold milli navy-text" href="#">Home</a></li>
-          <li class="gutter-1-2"><a class="nav not-bold milli navy-text" href="#">About</a></li>
-          <li class="gutter-1-2"><a class="nav not-bold milli navy-text" href="#">Shop</a></li>
+          <li class="gutter-1-2 {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="nav milli navy-text" href="/index/">Home</a></li>
+          <li class="gutter-1-2 {% if page.highlight_nav == 'about' %}current{% endif %}"><a class="nav milli navy-text" href="#">About</a></li>
+          <li class="gutter-1-2 {% if page.highlight_nav == 'shop' %}current{% endif %}"><a class="nav milli navy-text" href="/products/">Shop</a></li>
           <li class="gutter-1-2 pad-t-1-4">
             <a class="bag" href="#">
               <i class="icon i-20">

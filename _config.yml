@@ -22,3 +22,6 @@ patternbot:
       This blue colour is used as the secondary colour because it provides a unique contrast with the dark navy colour.
     colors.accent: |
       This accent pink colours are used because they provide a stark contrast from the main blue colours used. This pink colours are also more neutral earth tones, compared to the other water blue tones used.
+  layouts:
+    default: |
+      The default layout features the header and footer elements. It is used for almost every page.
