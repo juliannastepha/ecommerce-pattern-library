@@ -11,7 +11,7 @@ patterns:
     fields:
       - name: heading
         type: string
-        example: "Buy Original illustrations"
+        example: "Buy Original Illustrations"
       - name: text
         type: string
         example: "Check out our shop page to see a large variety of minimally simple, black and white illustrations."
