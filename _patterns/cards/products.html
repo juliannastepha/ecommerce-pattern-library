@@ -3,10 +3,10 @@
   <div class="gutter products-card">
     <div class="pad-b">
       <h2 class="pad-t-1-2 push-0">{{include.data.name}}</h2>
-      <h3>{{include.data.price}}</h3>
-      <h3>{{include.data.dimensions}}</h3>
+      <h3 class="not-bold push-0 giga">{{include.data.price}}</h3>
+      <h3 class="not-bold push-0 mega">{{include.data.dimensions}}</h3>
       <p>{{inclue.data.description}}</p>
-      {% pattern buttons/pink-light-pink text="See Print" url="include.data.url" %}
+      {% pattern buttons/pink-light-pink text="See Print" url=include.data.url %}
     </div>
   </div>
 </div>

@@ -12,6 +12,7 @@
 
 html {
   font-family: var(--font-primary);
+  background-color: var(--color-cream);
 }
 
 h1, h2 , blockquote, cite {
