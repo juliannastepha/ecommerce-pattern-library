@@ -1,10 +1,12 @@
 <div class="card products-card">
-  <img class="img-flex card-img" src="/images/coffee-shop-print.jpg" alt="">
+  <img class="img-flex card-img" src="{{include.data.image}}" alt="">
   <div class="gutter products-card">
     <div class="pad-b">
-      <h2 class="pad-t-1-2 push-0">Coffee Shop Print</h2>
-      <p>CA$34.50</p>
-      {% pattern buttons/pink-light-pink text="See Print" url="" %}
+      <h2 class="pad-t-1-2 push-0">{{include.data.name}}</h2>
+      <h3>{{include.data.price}}</h3>
+      <h3>{{include.data.dimensions}}</h3>
+      <p>{{inclue.data.description}}</p>
+      {% pattern buttons/pink-light-pink text="See Print" url="include.data.url" %}
     </div>
   </div>
 </div>

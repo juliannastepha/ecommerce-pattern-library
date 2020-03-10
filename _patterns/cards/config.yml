@@ -13,3 +13,9 @@ patterns:
     description: |
       The Products Card is located on the shop page of the website. It contains a product image, product title, product price and a button to encourage users to look at the product's details. The background is pink and the text and border are in link pink.
     background: "--color-cream"
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
