@@ -10,6 +10,8 @@ Fern & Ivy is an online shop that sells original illustrations and prints. This 
 
 [Netlify URL](https://hardcore-mcclintock-5a6ad9.netlify.com/pattern-library)
 
+![UI Design Sketches](ui-design/fern-and-ivy-ui-sketches.png)
+
 
 ## Installation
 
