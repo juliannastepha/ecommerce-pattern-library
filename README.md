@@ -1,13 +1,14 @@
-Project Title:
-Fern & Ivy E-commerce Pattern Library
+# Fern & Ivy E-commerce Pattern Library
 
-Description:
+## Description:
+
 Fern & Ivy is an online shop that sells original illustrations and prints. This pattern library defines the E-commerce website design for the Fern & Ivy brand. Fern & Ivy stands for selling original artwork, created by small artists and illustrators. Their brand is graphically illustrative yet minimal.
 
 ---
 
-Useful Links:
-https://hardcore-mcclintock-5a6ad9.netlify.com/pattern-library
+## Useful Links:
+
+[Netlify URL](https://hardcore-mcclintock-5a6ad9.netlify.com/pattern-library)
 
 
 ## Installation
