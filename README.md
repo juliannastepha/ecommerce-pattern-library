@@ -1,3 +1,10 @@
+Project Title:
+Fern & Ivy E-commerce Pattern Library
+
+Description:
+Fern & Ivy is an online shop that sells original illustrations and prints. This pattern library defines the E-commerce website design for the Fern & Ivy brand. Fern & Ivy stands for selling original artwork, created by small artists and illustrators. Their brand is graphically illustrative yet minimal.
+
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
