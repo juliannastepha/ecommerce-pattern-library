@@ -15,7 +15,7 @@
 }
 
 .continue-shopping-banner {
-  background-color: var(--color-beige);
+  background-color: var(--color-primary-navy);
   color: var(--color-cream);
 }
 
@@ -26,7 +26,7 @@
 }
 
 .img-min-height {
-  min-height: 600px;
+  min-height: 700px;
 }
 
 .checkout-min-height {
