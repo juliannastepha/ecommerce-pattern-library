@@ -1,0 +1,115 @@
+---
+layout: default
+---
+<div class="grid grid-top light-pink-background">
+  <div class="wrapper pad-t-2 pad-b-2">
+
+    <div class="unit xs-1 s-1 m-1 l-1">
+      <h2 class="pink-text text-center tena push-0">Checkout</h2>
+    </div>
+
+    <div class="unit xs-1 s-1 m-2-3 l-2-3">
+
+      <h3 class="pink-text push-0">Contact Information</h3>
+      <div class="pad-t-1-4 pad-b">
+        <label class="milli navy-text" for="email-address">Email Address</label>
+        <input class="cream-background navy-text milli" id="email" type="email" placeholder="Enter Email Address" aria-label="Email" required>
+      </div>
+
+      <h3 class="pink-text push-0">Shipping Information</h3>
+      <div class="pad-t-1-4">
+        <div class="grid grid-middle">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-8">
+            <label class="milli navy-text" for="first-name">First Name</label>
+            <input class="cream-background navy-text milli" id="first-name" type="name" placeholder="Enter First Name" aria-label="First Name" required>
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter-1-8">
+            <label class="milli navy-text" for="last-name">Last Name</label>
+            <input class="cream-background navy-text milli" id="last-name" type="name" placeholder="Enter Last Name" aria-label="Last Name" required>
+          </div>
+        </div>
+        <div class="pad-t-1-4">
+          <label class="milli navy-text" for="address">Address</label>
+          <input class="cream-background navy-text milli" id="address" type="address" placeholder="Enter Address" aria-label="Address" required>
+        </div>
+        <div class="pad-t-1-4">
+          <label class="milli navy-text" for="province">Province</label>
+          <select class="milli navy-text cream-background" id="province">
+            <option class="milli navy-text" value="">Choose a Province</option>
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland & Labrador</option>
+            <option>Northwest Territories</option>
+            <option>Nova Scotia</option>
+            <option>Nunavut</option>
+            <option>Ontario</option>
+            <option>Prince Edward Island</option>
+            <option>Québec</option>
+            <option>Saskatchewan</option>
+            <option>Yukon</option>
+          </select>
+        </div>
+        <div class="pad-t-1-4">
+          <label class="milli navy-text" for="city">City</label>
+          <input class="cream-background navy-text milli" id="city" type="address" placeholder="Enter City" aria-label="City" required>
+        </div>
+        <div class="pad-t-1-4">
+          <label class="milli navy-text" for="country">Country</label>
+          <input class="cream-background navy-text milli" id="country" type="country" placeholder="Enter Country" aria-label="Country" required>
+        </div>
+        <div class="pad-t-1-4">
+          <label class="milli navy-text" for="postal-code">Postal Code</label>
+          <input class="cream-background navy-text milli" id="postal-code" type="postal-code" placeholder="XXX XXX" aria-label="Postal Code" required>
+        </div>
+        <div class="pad-t-1-4">
+          <label class="milli navy-text" for="phone-number">Phone Number</label>
+          <input class="cream-background navy-text milli" id="phone-number" type="phone-number" placeholder="XXX-XXX-XXXX" aria-label="Phone Number" required>
+        </div>
+      </div>
+    </div>
+
+    <div class="unit xs-1 s-1 m-1-3 l-1-3 island light-pink-text">
+      <div class="pink-background">
+        <div class="island-1-2">
+          <div class="pad-b-1-2">
+            <p class="milli push-0">x1 Coffee Shop Print</p>
+            <p class="milli push-0">$34.50</p>
+          </div>
+          <div class="pad-b-2">
+            <p class="milli push-0">x1 Dream World Print</p>
+            <p class="milli push-0">$34.50</p>
+          </div>
+          <div class="pad-b-1-2">
+            <p class="push-0">SUBTOTAL</p>
+            <p class="milli push-0">$69.00</p>
+          </div>
+          <div class="pad-b-1-2">
+            <p class="push-0">SHIPPING</p>
+            <p class="milli push-0">TBD</p>
+          </div>
+          <div class="pad-b-1-2">
+            <p class="push-0">TAXES</p>
+            <p class="milli push-0">$8.97</p>
+          </div>
+          <div class="">
+            <p class="push-0 bold">SUBTOTAL</p>
+            <p class="milli push-0">$77.97</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="unit xs-1 s-1 m-1 l-1 text-center pad-t-2 pad-b">
+      <div class="grid grid-middle">
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 text-right gutter-1-8">
+          {% pattern buttons/light-pink-pink text="Return to Cart" url="/checkout-form/" %}
+        </div>
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 text-left gutter-1-8">
+          {% pattern buttons/light-pink-pink text="Continue to Shipping Method" url="/checkout-form/" %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
